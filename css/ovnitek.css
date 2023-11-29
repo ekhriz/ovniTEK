@@ -312,24 +312,69 @@ p {
   color: white;
 }
 
-.thankyou {
-  background: black;
-  color: white;
+/* contact style */
+
+.contact {
+	width: 50%;
+	margin: 8% auto;
+	text-align: center;
+	background-color: black;
+	border: 15px solid #A5FFEE;
+	border-radius: 5px;
+	padding: 2%;
+	box-sizing: border-box;
 }
 
-.thankyou img{
-  min-width: 25%;
-  min-height: 25%;
-  max-width: 60%;
-  max-height: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.contact h3 {
+	font-size: 2rem;
+	margin-bottom: 0;
+	color: #a5ffee;
 }
 
-.thankyou p {
-  color: #A5FFEE;
-  font-size: 20px;
-  font-family: "Roboto-Bold", "Roboto", sans-serif;
-  text-align: center;
+.contact label {
+	display: block;
+	margin-bottom: 5px;
+	color: #a5ffee;
+}
+
+.contact input,
+.contact textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+}
+
+.contact textarea {
+  height:150px;
+}
+
+.contact button {
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 5%;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.contact button:hover {
+	background-color: #333;
+}
+
+@media screen and (min-width: 770px) {
+	.contact {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.contact {
+		width: 50%;
+		margin-top: 5%;
+	}
 }
