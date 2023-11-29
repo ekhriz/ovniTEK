@@ -353,6 +353,7 @@ p {
   height:150px;
 }
 
+/* Optional: Style for the form submit button */
 .contact button {
 	background-color: black;
 	border: 2px solid white;
@@ -360,6 +361,7 @@ p {
 	color: white;
 	padding: 10px 20px;
 	cursor: pointer;
+  margin-top: 10px; /* Adjust the margin as needed */
 }
 
 .contact button:hover {
@@ -371,21 +373,6 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 20px; /* Adjust the margin as needed */
-}
-
-/* Optional: Style for the form submit button */
-.contact button {
-  background-color: black;
-  border: 2px solid white;
-  border-radius: 5%;
-  color: white;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 10px; /* Adjust the margin as needed */
-}
-
-.contact button:hover {
-  background-color: #333;
 }
 
 @media screen and (min-width: 770px) {
