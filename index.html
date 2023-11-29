@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/ovnitek.css">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+    href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/contactStyle.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <script defer src="js/ovnitek.js"></script>
@@ -167,7 +171,6 @@
             <p>Count on us to be by your side every minute, every hour, every day of the year. With unwavering
                 commitment, we're here to assist you.</p>
             <p>Your peace of mind is our priority.</p>
-            <p>Drop us a message to request a quote today! <a href="mailto:info@ovnitek.xyz">Request Quote</a></p>
         </div>
     </div>
     <!-- The social media icon bar 
@@ -178,6 +181,84 @@
         <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
         <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
     </div>-->
+
+    <section id="last">
+		<!-- heading -->
+		<div class="full">
+			<h3>Drop a Message</h3>
+
+			<div class="lt">
+
+				<!-- form starting -->
+				<form class="form-horizontal" method="post"
+					action="php/contact.php">
+					<div class="form-group">
+						<div class="col-sm-12">
+							<!-- name -->
+							<input type="text" class="form-control"
+								id="name" placeholder="NAME"
+								name="name" value="" />
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<!-- email -->
+							<input type="email" class="form-control"
+								id="email" placeholder="EMAIL"
+								name="email"
+								value="" />
+						</div>
+					</div>
+
+					<!-- message -->
+					<textarea class="form-control" rows="10"
+							placeholder="MESSAGE" name="message">
+			</textarea>
+
+					<button class="btn btn-primary send-button"
+							id="submit" type="submit" value="SEND">
+						<i class="fa fa-paper-plane"></i>
+						<span class="send-text">SEND</span>
+					</button>
+				</form>
+				<!-- end of form -->
+			</div>
+
+			<!-- Contact information -->
+			<div class="rt">
+				<ul class="contact-list">
+					<li class="list-item">
+						<i class="fa fa-map-marker fa-1x">
+							<span class="contact-text place">
+								1817 Mount Holly Rd Ste C7-101
+								</br>
+								Burlington, NJ 08016
+							</span>
+						</i>
+					</li>
+
+					<li class="list-item">
+						<i class="fa fa-envelope fa-1x">
+							<span class="contact-text gmail">
+								<a href="mailto:info@ovnitek.xyz"
+								title="Send me an email">
+									info@ovnitek.xyz</a>
+							</span>
+						</i>
+					</li>
+
+					<li class="list-item">
+						<i class="fa fa-phone fa-1x">
+							<span class="contact-text phone">
+								(+1) 3475427410
+							</span>
+						</i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </body>
 
 </html>
