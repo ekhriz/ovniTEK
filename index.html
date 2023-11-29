@@ -183,7 +183,7 @@
 
     <div class="contact">
         <h3>Drop a Message</h3>
-
+    </br>
         <!-- Netlify Form without reCAPTCHA -->
         <form name="contact" method="POST" data-netlify="true" action="thankyou.html">
             <!-- Ensure this hidden input is present for Netlify form handling -->
@@ -197,9 +197,11 @@
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Submit</button>
+            <div data-netlify-recaptcha="true"></div>
+            <p>
+                <button type="submit">Send</button>
+            </p>
         </form>
-        </div>
+    </div>
 </body>
 </html>
