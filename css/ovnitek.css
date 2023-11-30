@@ -194,3 +194,12 @@
     width: calc(30% - 1em);
   }
 }
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: goldenrod;
+  font-size: 18px;
+  font-family: "Roboto-Bold", "Roboto", sans-serif;
+  margin-top: 10px; /* Adjust the margin-top as needed */
+}
