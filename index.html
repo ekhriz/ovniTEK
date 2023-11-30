@@ -22,7 +22,7 @@
         </a>
         <div class="company-name">ovniTEK Solutions</div>
     </div>
-    
+
 
     <div class="container1">
         <div class="container1-left">
@@ -169,7 +169,7 @@
 
     <div class="contact">
         <h3>Drop a Message</h3>
-        <br/>
+        <br />
         <!-- Netlify Form without reCAPTCHA -->
         <form name="contact" method="POST" data-netlify="true" action="thankyou.html">
             <!-- Ensure this hidden input is present for Netlify form handling -->
@@ -195,6 +195,15 @@
             <h5>If you love NFT, check out our collection: <a href="https://alienznbotz.xyz">AlienznBotz</a></h5>
         </footer>
     </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GTAG}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '${process.env.GTAG}');
+    </script>
 </body>
 
 </html>
