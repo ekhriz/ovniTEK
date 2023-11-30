@@ -18,15 +18,17 @@
     <p><a href="https://www.forbes.com/sites/daveywinder/2023/11/22/thanksgiving-2023-top-5-cybersecurity-tips-as-threat-level-rises/?sh=1ed4f1eb3a6d"
             target="_blank">Check out these tips to protect yoursef yourself from ramsonware during the holidays</a></p>
     <p><a href="index.html">Back to homepage</a></p>
-</body>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.GTAG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'process.env.GTAG');
-    </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.GTAG"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', '${process.env.GTAG}');
+        </script>
+</body>
+
 
 </html>
