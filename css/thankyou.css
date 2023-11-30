@@ -1,11 +1,13 @@
-
+/* thankyou.css */
 
 body {
 	background: black;
-	color: white;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 img {
+	padding: 20px;
 	min-width: 25%;
 	min-height: 25%;
 	max-width: 60%;
@@ -16,8 +18,9 @@ img {
 }
 
 p {
-	color: #A5FFEE;
+	color: white;
 	font-size: 20px;
 	font-family: "Roboto-Bold", "Roboto", sans-serif;
 	text-align: center;
+	text-decoration: none;
 }
