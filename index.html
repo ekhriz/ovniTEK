@@ -3,6 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=process.env.GTAG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'process.env.GTAG');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="IT Administration Redefined">
     <meta name="author" content="ovniTEK">
@@ -195,16 +204,5 @@
             <h5>If you love NFT, check out our collection: <a href="https://alienznbotz.xyz">AlienznBotz</a></h5>
         </footer>
     </div>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=process.env.GTAG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'process.env.GTAG');
-    </script>
-
 </body>
-
 </html>
