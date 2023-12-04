@@ -1,0 +1,88 @@
+/* thankyou.css */
+
+body {
+	background: black;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+h1 {
+	color: #a5ffee;
+	font-size: 22px;
+	font-family: "Roboto-Bold", "Roboto", sans-serif;
+	text-align: left;
+}
+
+h2 {
+	color: #a5ffee;
+	font-size: 20px;
+	font-family: "Roboto-Bold", "Roboto", sans-serif;
+	text-align: left;
+}
+
+h3 {
+	color: #a5ffee;
+	font-size: 18px;
+	font-family: "Roboto-Bold", "Roboto", sans-serif;
+	text-align: left;
+}
+
+p,
+ul,
+ol {
+	color: white;
+	font-size: 16px;
+	font-family: "Roboto-Bold", "Roboto", sans-serif;
+	text-align: left;
+}
+
+/* unvisited link */
+a:link {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: purple;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+table {
+	font-family: "Roboto-Bold", "Roboto", sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	color: white;
+}
+
+td,
+th {
+	border: 1px solid #a5ffee;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	color: #a5ffee;
+}
+
+tr:nth-child(even) {
+	background-color: gray;
+}
